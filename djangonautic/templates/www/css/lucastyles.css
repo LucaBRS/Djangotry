@@ -1,0 +1,106 @@
+.marginev{
+    margin-left: 100px; 
+    margin-right: 100px;
+}
+
+.margin-bottom{
+    margin-bottom: 20px;
+}
+
+.card-event{
+    width: 30rem;
+    height: auto;
+}
+.card-event-l{
+    width: 60rem;
+    height: auto;
+}
+
+.positiontext,.positionevphoto{
+    position: relative;
+    width: 100%;
+    -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  }
+.positioneventname{
+    
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+        position: relative;
+  width: 100%;
+}
+.paddingtop{
+padding-top: 20px;
+}
+
+.positionev1photo{
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 30px;
+    -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  }
+
+  .bg-azzurrino{
+      background-color: #e6ecef !important ; 
+  }
+
+  .lucabtn{
+      border-radius: 20px;
+      background-color:#F9AD5D;      
+      color: black;
+      border-color:#F9AD5D;
+  }
+
+  .lucabtn:hover{
+      background-color: rgb(235, 192, 112);
+    color:white;
+  }
+
+
+  .lucabutton {
+    background-color:#F9AD5D; 
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+
+  @media (max-width: 1024px){
+  .lucabutton {
+    background-color:#F9AD5D; 
+    border: none;
+ 
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+}
+
+.colorblack{
+  color: black !important;
+}
+
+.padleft{
+  margin-left: 100px;
+}
+
+.margleft{
+  margin-left: 80px;
+}

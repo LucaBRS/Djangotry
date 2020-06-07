@@ -16,5 +16,5 @@ def about(request):
      #retorn template e importiamo il modulo per reder
     return render(request,'about.html')
 
-def project(request);
-    return render(request,'index.html')
+def project(request):
+    return render(request,'./www/index.html')
