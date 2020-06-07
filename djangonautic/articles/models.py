@@ -17,3 +17,6 @@ class Article(models.Model):
 #### how to do migrations   ####
     # manage.py makemigration
     # manage.py migrate
+
+    def __str__(self):
+         return self.title
