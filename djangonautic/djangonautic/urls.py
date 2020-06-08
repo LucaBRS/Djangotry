@@ -16,9 +16,14 @@ Including another URLconf
 from django.contrib import admin
 from django.conf.urls import url, include
 from django.urls import path
-from . import views          
-  
- # . same dir
+# . same dir     
+from . import views     
+    # questo è per la parte statica Importante mettere nle SETTING
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns  
+
+
+
+ 
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
