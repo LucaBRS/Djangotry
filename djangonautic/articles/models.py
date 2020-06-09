@@ -10,7 +10,7 @@ class Article(models.Model):
     slug = models.SlugField()
     body = models.TextField()
     date = models.DateTimeField(auto_now_add=True)
-    # add thumbani
+    thumb = models.ImageField(default='default.png', blank=True) #per ogni cambiamento si da la migrazione
     # autore
 
 
